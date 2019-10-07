@@ -1,0 +1,41 @@
+body {
+    background-color: #e8c5c5;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+header {
+    margin-top: 70px;
+}
+
+h1, h2 {
+    color: red;
+    font-family: serif;
+}
+
+
+h2 {
+    font-family: serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+#clientes p {
+    width: 900px;
+}
+
+.imagem_padrao {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.imagem_contatos {
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+footer {
+    margin-bottom: 50px;
+}
