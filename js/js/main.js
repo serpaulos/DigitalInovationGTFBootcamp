@@ -1,32 +1,19 @@
-/* var idade = prompt("Qual a sua idade")
-
-if(idade >= 18){
-    console.log("Adulto")
-}else{
-    console.log("Menor de Idade")
-} */
-
-// estruturas de repeticao: 
-// while
-/* 
-var count = 0
-while(count < 5){
-    console.log(count)
-    count ++
+function soma(n1, n2){
+    return n1 + n2
 }
-*/
-// for
-/* 
-var count
-for (count = 0; count < 5; count ++) {
-    console.log(count)
+
+// alert(soma(5,10))
+
+function validaIdade(idade){
+    let validar
+    if(idade >= 18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar
 }
-*/
 
-// data
-var d = new Date()
+let idade = prompt("Qual a sua idade")
+console.log(validaIdade(idade))
 
-console.log(d)
-console.log(d.getDay())
-console.log(d.getMonth())
-console.log(d.getFullYear())
