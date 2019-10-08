@@ -6,8 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aula de JavaScript</title>
 </head>
-<body>
-    
+<body onload="load()">
+    <h2>Minha pagina</h2>
+
+    <button type="button" onclick="clicado()">Botão</button>
+
+    <p id="agradecimento" onclick="redirecionar()"></p>
+
+    <p id="trocar" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui!!!</p>
+
+    <select name="" id="" onchange="pegaValor(this)">
+        <option value="">Escolha um valor</option>
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+
     <script src="js/main.js"></script>
 </body>
 </html>
