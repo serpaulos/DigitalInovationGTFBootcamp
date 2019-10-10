@@ -36,3 +36,21 @@ for (let value of arr){
 for (let value of str){
     console.log(value)
 }
+
+Symbol.iterator
+
+const obj = {
+    values = [1, 2, 3, 4],
+    [Symbol.iterator](){
+        let i = 0
+        return{
+            next: () => {
+                i++
+                return {
+                    value: this.values[i -1],
+                    done: i > this.values.lenght
+                }
+            }
+        }
+    }
+}
